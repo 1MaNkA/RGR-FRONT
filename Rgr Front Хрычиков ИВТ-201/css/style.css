@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Базовый стиль */
+.col{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.block{ 
+width: 100px;
+height: 100px;
+background: #cc0081;
+}
+.block_2{
+    background: linear-gradient(90deg, #b3650c,#ff860d,#cc0081);;
+
+}
+.block_3{
+    border: 5px dotted black;
+}
+.block_4:hover{
+    background-color: #ff860d;
+}
+.block_5{
+    border: 5px solid black;
+}
+.block_6:hover{
+    background-color: white;
+    border: 5px solid black;
+}
